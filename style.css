@@ -27,9 +27,33 @@
 }
 
 input {
-
+  align-content: center;
+  display: inline-block;
+  margin: 10px;
+  max-width: 50%;
 }
 
 .caption {
   text-align: center;
 }
+
+/* this eye-con is just for fun */
+
+/*.eye .iris {
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  border: 25px solid white;
+  border-radius: 100%;
+}
+
+.eye {
+  padding: 49px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  width: 200px;
+  height: 200px;
+  border-radius: 84% 2%;
+  transform: rotate(45deg);
+}*/
