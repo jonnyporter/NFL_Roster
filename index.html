@@ -1,17 +1,30 @@
 <html>
 
-<head>
+<head>	
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://rawgit.com/yesmeck/jquery-jsonview/v1.2.2/dist/jquery.jsonview.js"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://rawgit.com/yesmeck/jquery-jsonview/master/dist/jquery.jsonview.css">
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
 	<link rel="icon" href="http://s.nflcdn.com/static/content/public/image/fantasy/transparent/200x200/" type="image/x-icon">
 	<meta charset="UTF-8">
 	<title>NFL Roster</title>
 </head>
 
 <body>
+	
+	<!-- <div class="eye">
+		<div class="iris">
+		</div>
+	</div>
+		<div class="eye2">
+		<div class="iris2">
+		</div>
+	</div> -->
 	<div class="container">
 		<div class="row players"></div>
 		<div class="panel panel-primary">
@@ -30,6 +43,7 @@
 			</div>
 			<div class="panel-footer">
 				<a class="btn btn-primary" role="button" id="add-button" onclick="">Submit</a>
+				<a class="btn btn-default" role="button" id="or-button" onclick="">Add NFL Player</a>
 			</div>
 		</div>
 	</div>
